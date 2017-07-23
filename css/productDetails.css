@@ -1,0 +1,93 @@
+html {
+  font-size: 20px; }
+
+body {
+  background: #F0F5F9;
+  color: #333;
+  font-size: 0.6rem; }
+
+#productDetails {
+  width: 100%; }
+
+header {
+  width: 100%;
+  background: #2185C0;
+  height: 2.2rem;
+  line-height: 2.2rem;
+  text-align: center;
+  position: relative;
+  font-size: 0.85rem;
+  color: #fff; }
+  header .leftIcon {
+    position: absolute;
+    width: 0.4rem;
+    height: 0.65rem;
+    left: 0.5rem;
+    top: 50%;
+    margin-top: -0.325rem;
+    background: url(../img/iconLeft.png) no-repeat center;
+    background-size: 100% 100%; }
+
+section {
+  width: 100%;
+  padding-bottom: 2.95rem; }
+  section .con {
+    background: #fff;
+    border-top: 1px solid #EDEEEF;
+    border-bottom: 1px solid #EDEEEF;
+    margin-top: 0.5rem;
+    box-sizing: border-box; }
+  section .proIcon {
+    background: url(../img/index-allIcon.png) no-repeat 0 0;
+    background-size: 6.5rem auto; }
+  section .proDetails img {
+    width: 100%; }
+  section .proDetails .proMsg {
+    background: #fff;
+    padding: 0.75rem 0.5rem; }
+    section .proDetails .proMsg div {
+      font-size: 0.7rem; }
+      section .proDetails .proMsg div h4 {
+        color: #333;
+        font-weight: bold; }
+      section .proDetails .proMsg div span {
+        color: #FF9108; }
+    section .proDetails .proMsg p {
+      color: #9D9D9D;
+      margin-top: 0.25rem; }
+  section .proTitle {
+    height: 2rem;
+    box-sizing: border-box;
+    border-bottom: 1px solid #EDEEEF;
+    padding-top: 0.5rem; }
+    section .proTitle h4 {
+      width: 2.95rem;
+      height: 0.95rem;
+      padding-left: 0.5rem;
+      font-size: 0.6rem;
+      color: #fff;
+      background-position: 0 -5.8rem; }
+  section .guarantee .guaranteeMsg {
+    padding: 0 0.5rem; }
+    section .guarantee .guaranteeMsg li {
+      line-height: 2.25rem;
+      border-bottom: 1px solid #EDEEEF; }
+      section .guarantee .guaranteeMsg li h4 {
+        float: left; }
+      section .guarantee .guaranteeMsg li span {
+        display: block;
+        float: right;
+        color: #FF9108;
+        padding-right: 1.25rem;
+        position: relative; }
+        section .guarantee .guaranteeMsg li span i {
+          position: absolute;
+          width: 0.5rem;
+          height: 0.25rem;
+          background: url(../img/iconDown.png) no-repeat center;
+          background-size: 100% 100%;
+          top: 50%;
+          right: 0;
+          margin-top: -0.125rem; }
+
+/*# sourceMappingURL=productDetails.css.map */

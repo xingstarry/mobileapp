@@ -1,0 +1,187 @@
+html {
+  font-size: 20px; }
+
+body {
+  color: #333;
+  font-size: 0.6rem; }
+
+#service, .otherSerDetails {
+  width: 100%;
+  position: relative;
+  background: #F0F5F9; }
+
+header {
+  width: 16rem;
+  background: #2185C0;
+  height: 2.2rem;
+  line-height: 2.2rem;
+  text-align: center;
+  font-size: 0.85rem;
+  color: #fff;
+  position: relative; }
+  header .leftIcon {
+    position: absolute;
+    width: 0.4rem;
+    height: 0.65rem;
+    left: 0.5rem;
+    top: 50%;
+    margin-top: -0.325rem;
+    background: url(../img/iconLeft.png) no-repeat center;
+    background-size: 100% 100%; }
+
+nav {
+  width: 100%;
+  height: 2.45rem;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  background: #fff;
+  border-top: 1px solid #DCDEE2;
+  box-sizing: border-box;
+  z-index: 99; }
+  nav ul {
+    display: flex; }
+    nav ul li {
+      flex: 1;
+      float: left; }
+      nav ul li a {
+        font-size: 0.6rem;
+        color: #333;
+        text-align: center;
+        display: block; }
+        nav ul li a:before {
+          content: '';
+          display: block;
+          width: 1.15rem;
+          height: 0.8rem;
+          margin: 0.5rem auto 0.05rem;
+          background: url(../img/navIcon.png) no-repeat 0.15rem 0;
+          background-size: 4.55rem 1.85rem; }
+      nav ul li:nth-child(1) a:before {
+        background-position: 0.15rem -1.05rem; }
+      nav ul li:nth-child(2) a:before {
+        background-position: -1.05rem -1.05rem; }
+      nav ul li:nth-child(3) a {
+        color: #2185C0; }
+        nav ul li:nth-child(3) a:before {
+          background-position: -2.35rem 0; }
+      nav ul li:nth-child(4) a:before {
+        background-position: -3.6rem -1.05rem; }
+
+.con {
+  background: #fff;
+  border-top: 1px solid #EDEEEF;
+  box-sizing: border-box; }
+
+.serIcon {
+  background: url(../img/serviceIcon.png) no-repeat 0 0;
+  background-size: 6.5rem auto; }
+
+section {
+  width: 100%;
+  padding-bottom: 2.95rem;
+  position: relative; }
+  section .serDetails {
+    display: flex;
+    background: #2185C0;
+    height: 5rem; }
+    section .serDetails a {
+      flex: 1;
+      text-align: center;
+      color: #fff;
+      font-size: 0.6rem; }
+      section .serDetails a i {
+        width: 1.95rem;
+        height: 1.95rem;
+        display: block;
+        margin: 1.1rem auto 0.25rem; }
+      section .serDetails a:nth-child(2) i {
+        background-position: -2.2rem 0; }
+  section .serTitle {
+    height: 1.75rem;
+    box-sizing: border-box; }
+    section .serTitle h4 {
+      padding-left: 0.75rem;
+      font-size: 0.6rem;
+      line-height: 1.75rem;
+      color: #333; }
+  section .addService .addServiceMsg li {
+    float: left; }
+    section .addService .addServiceMsg li a {
+      width: 5.3325rem;
+      height: 4.45rem;
+      display: block;
+      box-sizing: border-box;
+      text-align: center;
+      border-right: 1px solid #EDEEEF;
+      border-bottom: 1px solid #EDEEEF;
+      overflow: hidden; }
+      section .addService .addServiceMsg li a i {
+        display: block;
+        margin: 1.05rem auto 0.5rem;
+        width: 1.2rem;
+        height: 1rem;
+        background-position: 0 -2.6rem; }
+    section .addService .addServiceMsg li .last {
+      border-right: none; }
+    section .addService .addServiceMsg li:nth-child(2) i {
+      background-position: -1.2rem -2.6rem; }
+    section .addService .addServiceMsg li:nth-child(3) i {
+      background-position: -2.4rem -2.6rem; }
+    section .addService .addServiceMsg li:nth-child(4) i {
+      background-position: -3.6rem -2.6rem; }
+    section .addService .addServiceMsg li:nth-child(5) i {
+      background-position: -4.8rem -2.6rem; }
+  section .addService .claims li:nth-child(1) i {
+    background-position: 0 -4.4rem; }
+  section .addService .claims li:nth-child(2) i {
+    background-position: -1.2rem -4.4rem; }
+  section .addService .otherServive li:nth-child(1) i {
+    background-position: -2.4rem -4.4rem; }
+  section .addService .otherServive li:nth-child(2) i {
+    background-position: -3.6rem -4.4rem; }
+
+.otherSerDetails {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: 0.5s all ease; }
+  .otherSerDetails .wiki .wikiCon li {
+    float: left; }
+    .otherSerDetails .wiki .wikiCon li a {
+      height: 3rem;
+      line-height: 3rem;
+      display: block;
+      font-size: 0.7rem;
+      padding-left: 1rem;
+      box-sizing: border-box;
+      width: 8rem; }
+      .otherSerDetails .wiki .wikiCon li a i {
+        display: inline-block;
+        width: 1.5rem;
+        height: 1.5rem;
+        margin-top: 0.75rem;
+        margin-right: 0.5rem;
+        vertical-align: top;
+        background-position: 0 -6rem; }
+    .otherSerDetails .wiki .wikiCon li:nth-child(2) i {
+      background-position: -1.5rem -6rem; }
+    .otherSerDetails .wiki .wikiCon li:nth-child(3) i {
+      background-position: -3rem -6rem; }
+    .otherSerDetails .wiki .wikiCon li:nth-child(4) i {
+      background-position: -4.5rem -6rem; }
+  .otherSerDetails .wiki .normalQ li {
+    padding: 0.55rem 0.5rem; }
+    .otherSerDetails .wiki .normalQ li h4 {
+      font-size: 0.6rem;
+      margin-bottom: 0.25rem; }
+      .otherSerDetails .wiki .normalQ li h4 em {
+        font: 0.7rem "Arial";
+        font-weight: bold;
+        color: #2085BF;
+        margin-right: 0.15rem; }
+    .otherSerDetails .wiki .normalQ li p {
+      margin-left: 0.8rem;
+      color: #9D9D9D; }
+
+/*# sourceMappingURL=service.css.map */

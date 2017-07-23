@@ -5,80 +5,129 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
     <title>移动应用</title>
     <link rel="stylesheet" href="css/base.css">
-    <link rel="stylesheet" href="css/product.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/index.css">
     <script src="js/zepto.min.js"></script>
+    <script src="js/swiper.min.js"></script>
     <script src="js/common.js"></script>
-    <script src="js/product.js"></script>
+    <script src="js/index.js"></script>
 </head>
 <body>
-    <div id="product">
+    <div id="index">
         <!-- header -->
-        <header>
-            保险
-            <a href="#" class="staff"></a>
+        <header class="clear-fix">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="img/banner1.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="img/banner2.jpg" alt=""></div>
+                </div>
+                <!-- 如果需要分页器 -->
+                <div class="swiper-pagination"></div>
+            </div>
         </header>
         <!-- 导航 -->
         <nav>
             <ul class="clear-fix">
                 <li><a href="#">首页</a></li>
-                <li><a href="#">保险</a></li>
-                <li><a href="#">服务</a></li>
+                <li><a href="product.html">保险</a></li>
+                <li><a href="service.html">服务</a></li>
                 <li><a href="#">我的</a></li>
             </ul>
         </nav>
         <!-- 内容 -->
         <section>
             <!-- 产品导航 -->
-            <div class="proNav">
-                <ul class="clear-fix">
-                    <li class="active">热门</li>
-                    <li>意外</li>
-                    <li>旅行</li>
-                    <li>家财</li>
-                    <li>车险</li>
+            <ul class="proNav con clear-fix">
+                <li><a href="#">意外险</a></li>
+                <li><a href="#">旅行险</a></li>
+                <li><a href="#">家财险</a></li>
+                <li><a href="#">车险</a></li>
+            </ul>
+            <!-- 热门服务 -->
+            <div class="hotService con">
+                <div class="proTitle "><h4 class="proIcon">热门服务</h4></div>
+                <ul class="hotCon clear-fix">
+                    <li>
+                        <a href="#" class="">
+                            <h4>保单号查询</h4>
+                            <p>根据保单号查询</p>
+                            <i class="proIcon"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="">
+                            <h4>理赔查询</h4>
+                            <p>根据单号查询</p>
+                            <i class="proIcon"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="">
+                            <h4>门店查询</h4>
+                            <p>各地区门店查询</p>
+                            <i class="proIcon"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="">
+                            <h4>快速报案</h4>
+                            <p>拨打报案电话</p>
+                            <i class="proIcon"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="">
+                            <h4>自助查勘</h4>
+                            <p>方便快捷</p>
+                            <i class="proIcon"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="">
+                            <h4>修理厂查询</h4>
+                            <p>随时随地查看位置</p>
+                            <i class="proIcon"></i>
+                        </a>
+                    </li>
                 </ul>
-                <i class="half"></i>
             </div>
-
             <!-- 热门产品 -->
             <div class="hotService con">
+                <div class="proTitle "><h4 class="proIcon">热门产品</h4></div>
                 <ul class="hotProCon">
                     <li>
                         <a href="#">
-                            <img src="img/productImg1.jpg" alt="">
-                            <i>意外险</i>
+                            <img src="img/hotProimg1.jpg" alt="">
                             <div class="proMsg">
                                 <div class="clear-fix">
-                                    <h4 class="fl">意外盾牌</h4>
-                                    <span class="fr">¥120起</span>
+                                    <h4 class="fl">热销意外险保障</h4>
+                                    <span class="fr">¥45起</span>
                                 </div>
-                                <p>保障20万身价，2万医疗费用报销</p>
+                                <p>包含30种重大疾病 保额高达30万</p>
                             </div>
                         </a>
                     </li>
                     <li>
                         <a href="#">
-                            <img src="img/productImg2.jpg" alt="">
-                            <i>旅游险</i>
+                            <img src="img/hotProimg2.jpg" alt="">
                             <div class="proMsg">
                                 <div class="clear-fix">
-                                    <h4 class="fl">驴友旅行意外伤害保险</h4>
-                                    <span class="fr">¥6起</span>
+                                    <h4 class="fl">热销意外险保障</h4>
+                                    <span class="fr">¥45起</span>
                                 </div>
-                                <p>高风险运动专项险，双重保障意外和住院</p>
+                                <p>包含30种重大疾病 保额高达30万</p>
                             </div>
                         </a>
                     </li>
                     <li>
                         <a href="#">
-                            <img src="img/productImg3.jpg" alt="">
-                            <i>车险</i>
+                            <img src="img/hotProimg3.jpg" alt="">
                             <div class="proMsg">
                                 <div class="clear-fix">
-                                    <h4 class="fl">车险保障</h4>
-                                    <span class="fr">¥99起</span>
+                                    <h4 class="fl">热销意外险保障</h4>
+                                    <span class="fr">¥45起</span>
                                 </div>
-                                <p>包含30种车险保障 保额高达30万</p>
+                                <p>包含30种重大疾病 保额高达30万</p>
                             </div>
                         </a>
                     </li>

@@ -1,0 +1,156 @@
+html {
+  font-size: 20px; }
+
+body {
+  color: #333;
+  font-size: 0.6rem;
+  background: #F0F5F9; }
+
+#my {
+  width: 100%;
+  position: relative; }
+
+header {
+  width: 16rem;
+  height: 7.2rem;
+  background: url(../img/myBg.jpg) no-repeat;
+  background-size: 100%;
+  position: relative;
+  overflow: hidden; }
+  header .personBox {
+    padding-left: 1.65rem;
+    margin-top: 1.85rem;
+    color: #fff; }
+  header .personPic {
+    width: 3.3rem;
+    height: 3.3rem;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.3);
+    margin-right: 0.5rem; }
+    header .personPic img {
+      width: 3rem;
+      height: 3rem;
+      border-radius: 50%;
+      margin: 0.1rem;
+      background: #EDF3F5; }
+  header .personMsg {
+    margin-top: 0.65rem;
+    position: relative; }
+    header .personMsg .login {
+      color: #fff;
+      font-size: 0.7rem;
+      line-height: 2.05rem; }
+    header .personMsg .personDetail h4 {
+      font-size: 0.7rem;
+      height: 0.85rem;
+      line-height: 0.85rem;
+      margin-bottom: 0.35rem; }
+      header .personMsg .personDetail h4 span {
+        display: inline-block;
+        width: 2.3rem;
+        height: 0.85rem;
+        font-size: 0.6rem;
+        color: #fff;
+        line-height: 0.85rem;
+        padding-left: 0.4rem;
+        background: url(../img/my_bindIcon.png) no-repeat;
+        background-size: 100% 100%;
+        margin-top: -0.1rem;
+        margin-left: 0.5rem; }
+    header .personMsg .personDetail p {
+      font-size: 0.6rem;
+      color: #BFE0F4; }
+
+nav {
+  width: 100%;
+  height: 2.45rem;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  background: #fff;
+  border-top: 1px solid #DCDEE2;
+  box-sizing: border-box;
+  z-index: 99; }
+  nav ul {
+    display: flex; }
+    nav ul li {
+      flex: 1;
+      float: left; }
+      nav ul li a {
+        font-size: 0.6rem;
+        color: #333;
+        text-align: center;
+        display: block; }
+        nav ul li a:before {
+          content: '';
+          display: block;
+          width: 1.15rem;
+          height: 0.8rem;
+          margin: 0.5rem auto 0.05rem;
+          background: url(../img/navIcon.png) no-repeat 0.15rem 0;
+          background-size: 4.55rem 1.85rem; }
+      nav ul li:nth-child(1) a:before {
+        background-position: 0.15rem -1.05rem; }
+      nav ul li:nth-child(2) a:before {
+        background-position: -1.05rem -1.05rem; }
+      nav ul li:nth-child(3) a:before {
+        background-position: -2.35rem -1.05rem; }
+      nav ul li:nth-child(4) a {
+        color: #2185C0; }
+        nav ul li:nth-child(4) a:before {
+          background-position: -3.6rem 0; }
+
+.con {
+  background: #fff;
+  border-top: 1px solid #EDEEEF;
+  box-sizing: border-box; }
+
+.myCon {
+  border-bottom: 1px solid #EDEEEF; }
+  .myCon li {
+    float: left; }
+    .myCon li a {
+      width: 8rem;
+      height: 3rem;
+      line-height: 3rem;
+      display: block;
+      font-size: 0.7rem;
+      padding-left: 2.1rem;
+      box-sizing: border-box;
+      border-right: 1px solid #EDEEEF; }
+      .myCon li a i {
+        display: inline-block;
+        width: 0.7rem;
+        height: 0.9rem;
+        margin-top: 1.05rem;
+        margin-right: 0.25rem;
+        vertical-align: top;
+        background: url(../img/my_icon.png) no-repeat left;
+        background-size: 1.65rem; }
+    .myCon li:last-child a {
+      border-right: none; }
+      .myCon li:last-child a i {
+        background-position: -1rem 0; }
+
+.setting {
+  margin-top: 0.5rem; }
+  .setting .settingList {
+    height: 2.5rem;
+    border-bottom: 1px solid #EDEEEF;
+    padding: 0 0.75rem; }
+    .setting .settingList h4 {
+      float: left;
+      font-size: 0.7rem;
+      line-height: 2.5rem; }
+    .setting .settingList i {
+      margin-top: 1rem;
+      display: block;
+      float: right;
+      width: 0.275rem;
+      height: 0.5rem;
+      background: url(../img/iconRight.png) no-repeat center;
+      background-size: 100%; }
+
+/*# sourceMappingURL=my.css.map */

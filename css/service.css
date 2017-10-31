@@ -144,7 +144,7 @@ section {
 .otherSerDetails {
   position: absolute;
   top: 0;
-  left: 0;
+  left: 16rem;
   transition: 0.5s all ease; }
   .otherSerDetails .wiki .wikiCon li {
     float: left; }

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>移动应用</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/login.css">
+  <script src="js/zepto.min.js"></script>
+  <script src="js/common.js"></script>
+  <script src="js/login.js"></script>
+</head>
+<body>
+  <div id="login-signup">
+    <div class="hint">错误</div>
+    <!-- ----------------登录----------------- -->
+    <div id="login">
+      <header>
+        登录
+        <a href="my.html" class="leftIcon" id="return2my"></a>
+      </header>
+      <form id="loginF" action="" method="post">
+        <div class="inputBox con" id="loginBox">
+          <input type="text" name="user" placeholder="手机号"  data-err="请输入正确手机号" />
+          <input type="password" name="pass" data-err="请输入6-14位密码" placeholder="密码" />
+        </div>
+        <input type="submit" value="登录" class="btn" />
+      </form>
+      <h4 class="toSign">立即注册</h4>
+    </div>
+    <!-- ----------------注册----------------- -->
+    <div id="signup">
+      <header>
+        注册
+        <a href="javascript:;" class="leftIcon" id="return2login"></a>
+      </header>
+      <form id="signupF" action="" method="post">
+        <div class="inputBox con" id="signupBox">
+          <input type="text" name="user" placeholder="您的手机号" data-err="请输入正确手机号" />
+          <input type="password" name="pass" id="signupPass" placeholder="密码" data-err="请输入6-14位密码" />
+        </div>
+        <input type="submit" value="注册" class="btn" />
+      </form>
+
+    </div>
+  </div>
+</body>
+</html>

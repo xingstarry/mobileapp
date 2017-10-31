@@ -1,0 +1,80 @@
+html {
+  font-size: 20px; }
+
+body {
+  color: #333;
+  font-size: 0.6rem;
+  background: #F0F5F9; }
+
+.con {
+  background: #fff;
+  border-top: 1px solid #EDEEEF;
+  box-sizing: border-box; }
+
+#login-signup {
+  position: relative; }
+  #login-signup .hint {
+    width: 8rem;
+    padding: 0.5rem;
+    line-height: 0.8rem;
+    color: #fff;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 0.25rem;
+    position: absolute;
+    top: 11rem;
+    left: 50%;
+    margin-left: -4rem;
+    z-index: 2;
+    display: none; }
+  #login-signup header {
+    width: 16rem;
+    background: #fff;
+    height: 2.2rem;
+    line-height: 2.2rem;
+    text-align: center;
+    font-size: 0.85rem;
+    color: #333;
+    position: relative; }
+    #login-signup header .leftIcon {
+      position: absolute;
+      width: 0.4rem;
+      height: 0.65rem;
+      left: 0.5rem;
+      top: 50%;
+      margin-top: -0.325rem;
+      background: url(../img/iconLeft_blue.png) no-repeat center;
+      background-size: 100% 100%; }
+  #login-signup form .inputBox {
+    margin-top: 0.5rem;
+    padding-left: 0.85rem; }
+    #login-signup form .inputBox input {
+      width: 100%;
+      height: 2.2rem;
+      box-sizing: border-box;
+      border: none;
+      border-bottom: 1px solid #EDEEEF; }
+  #login-signup form .btn {
+    width: 15rem;
+    height: 2.2rem;
+    border-radius: 0.15rem;
+    background: #FF9109;
+    border: none;
+    display: block;
+    margin: 0.5rem auto;
+    font-size: 0.8rem;
+    color: #fff; }
+  #login-signup .toSign {
+    color: #2185C0;
+    font-size: 0.6rem;
+    margin-left: 0.5rem; }
+
+#signup {
+  height: 28.4rem;
+  background: #F0F5F9;
+  position: absolute;
+  left: 16rem;
+  top: 0;
+  transition: .5s left ease; }
+
+/*# sourceMappingURL=login.css.map */
